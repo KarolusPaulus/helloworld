@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     let response = '';
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 30; i++) {
       response += 'Hello World! :DD<br>';
     }
     res.send(response);
